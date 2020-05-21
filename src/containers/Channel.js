@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { getChannel, activateChannel } from '../actions'
+import { getChannel, activateChannel } from '../redux/actions/index.js'
 
 let Channel = ({ channelName, channelString, onClick, active }) => (
     <div  className=" col-lg-2 col-md-4 col-sm-6 ">
