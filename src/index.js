@@ -4,9 +4,9 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { logger } from 'redux-logger';
-import reducer from './reducers';
+import reducer from './redux/reducers/index';
 import './assets/css/app.css';
-import App from "./components/App";
+import App from "../src/components/App";
 
 
 const store = createStore(
